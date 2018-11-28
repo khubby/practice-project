@@ -1,0 +1,65 @@
+
+.app {
+    background-color:whitesmoke;
+}
+.app h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    background-color: aqua;
+}
+
+.navbar a {
+    margin-right: 100px;
+    // margin-left: 10px;
+}
+
+.image img {
+    width: 50%;
+    
+}
+
+// .header {
+//     background-color: whitesmoke;
+// }
+
+.header h1{
+    display: flex;
+    justify-content: center;
+}
+
+.header p{
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 40px;
+}
+
+.body p {
+    margin-left: -500px;
+}
+
+.body > button {
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+}
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    background-color: aqua;
+    margin-top: 30px;
+    height: 300px;
+    padding: 100px
+    
+}
+
